@@ -11390,7 +11390,7 @@ hr.divider-light {
 }
 
 header.masthead {
-  height: 40 rem;
+  height: 100 rem;
   padding-top: 10 rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: url("../assets/img/bg-masthead.JPG");
