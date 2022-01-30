@@ -99,6 +99,7 @@
                  <p class="text-muted-75 mb-4 text-center"> [주의] 예식장은 낙성대 근처의 호암 교수회관이 아니고, 서울대학교 교내 교수회관 입니다. 
                  </p>    
                 </div>
+	    
         <!--BOX FOR NAVIGATION-->        
  	       <div style="box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; text-align: center;">
                 <script>
@@ -227,9 +228,9 @@ function launch(appname,url){
 		function kakao_navi(){
     			if (is_pc == '1') {
 		        alert('모바일 기기 전용 기능입니다')
-    			}
-	    Kakao.Navi.start({
-                name: '%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90+%EA%B5%90%EC%88%98%ED%9A%8C%EA%B4%80',
+    			 	}
+	 	   Kakao.Navi.start({
+                	name: '%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90+%EA%B5%90%EC%88%98%ED%9A%8C%EA%B4%80',
         		x: 126.953912452171,
         		y: 37.4578803280073,
         		coordType: 'wgs84'
@@ -237,11 +238,53 @@ function launch(appname,url){
 			}
 		</script>
 		
-		<!--target=_blank href="http://map.daum.net/link/map/서울대학교 교수회관,37.4578803280073,126.953912452171"-->
+		<!--
+		target=_blank href="http://map.daum.net/link/map/서울대학교 교수회관,37.4578803280073,126.953912452171"
+		-->
 		<a style="margin-right: 12px;" onclick="kakao_navi();$('.insbox').hide();"><img src="./img/map_navi_button-kakao.png" height="66"></a>
-			&lt;
+		"<"==$0       
+		       
+	    	</div>
+	        <div class="insbox" style="display: none;">
+		<div class="inss" id="ins_tmap"> <img src="./img/130530_07_04.gif" width="300" onclick="app_install(&quot;tmap&quot;)"> </div>
+		<div class="inss" id="ins_kimgisa"> <img src="./img/130530_07_01.gif" width="300" onclick="app_install(&quot;kimgisa&quot;)"> </div>
+		<div class="inss" id="ins_navermap"> <img src="./img/130530_07_02.gif" width="300" onclick="app_install(&quot;navermap&quot;)"> </div>
+		<div class="inss" id="ins_daummap"> <img src="./img/130530_07_03.gif" width="300" onclick="app_install(&quot;daummap&quot;)"> </div>
+		<div class="inss" id="ins_atlan"> <img src="./img/130530_07_06.gif" width="300" onclick="app_install(&quot;atlan&quot;)"> </div>
 
-		</div>        
+		</div>
+		
+<script>
+function app_install(appname){
+
+		var isAPPLE = (navigator.userAgent.match('iP') != null)
+
+		// 애플
+		if(isAPPLE){
+				store_url="http://itunes.apple.com/kr/app/"
+				if(appname=="navermap") store_url+="id311867728?mt=8"
+				if(appname=="daummap") store_url+="id304608425?mt=8"
+				if(appname=="kimgisa") store_url+="id417698849?mt=8"
+				if(appname=="tmap") store_url+="id431589174?mt=8"
+				if(appname=="atlan") store_url+="id542287735?mt=8"
+		}
+		
+		// 안드로이드
+		else {
+				store_url="market://details?id="
+				if(appname=="navermap") store_url+="com.nhn.android.nmap"
+				if(appname=="daummap") store_url+="net.daum.android.map"
+				if(appname=="kimgisa") store_url+="com.locnall.KimGiSa"
+				//if(appname=="tmap") store_url+="com.skt.skaf.l001mtm092"
+				if(appname=="tmap") store_url+="com.skt.tmap.ku"
+				if(appname=="atlan") store_url+="kr.mappers.AtlanSmart"
+		}
+
+	  window.open(store_url)
+
+}
+</script>			
+    
             </div>    
         </section>
 
