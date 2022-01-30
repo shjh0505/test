@@ -11390,10 +11390,11 @@ hr.divider-light {
 }
 
 header.masthead {
+  margin-top: 5 rem;
   padding-top: 10 rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: url("../assets/img/bg-masthead1.JPG");
-  background-position: center;
+  background-position: end;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -11403,7 +11404,7 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 10vh;
+    height: 60vh;
     min-height: 40rem;
     padding-top: 0;
     padding-bottom: 0;
