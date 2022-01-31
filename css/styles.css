@@ -2995,7 +2995,7 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-family:  "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Gowun Batang", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -3033,38 +3033,38 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #fff;
+  background-color: transparent;
   border-color: #fff;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #fff;
+  background-color: transparent;
   border-color: #fff;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: transparent;
+  border-color: transparent;
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #c34e2e;
-  border-color: #b74a2c;
+  background-color: transparent;
+  border-color: transparent;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-secondary {
   color: #fff;
-  background-color: #fff;
-  border-color: #fff;
+  background-color: transparent;
+  border-color: transparent;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -3073,14 +3073,14 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #fff;
-  background-color: #5c636a;
-  border-color: #565e64;
+  background-color: transparent;
+  border-color: transparent;
   box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
 }
 .btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #565e64;
-  border-color: #51585e;
+  background-color: transparent;
+  border-color: transparent;
 }
 .btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
@@ -11460,25 +11460,3 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
-
-
-.section_desc {
-    font-family: 'Gowun Batang';
-    font-size: 12px;
-    font-weight: 300;
-    border-bottom: 0;
-    text-align: center;
-    color: #333333;
-    margin-top: -20px;
-}
-.bank_txt {
-    cursor: pointer;
-}
-.bank_txt_num {
-    margin-top: 6px;
-}
-.bank_txt_notice {
-    color: #777777;
-    font-size: 11px;
-    text-align: right;
-}
