@@ -170,6 +170,77 @@
                         <p class="text-muted mb-5">축하의 마음을 담아 축의금을 전달해 보세요.</p>
                     </div>
                 </div>
+		    
+		<div class="contact_row" style="border-top: 0;">
+      		  <div class="contact_button" data-type="m">
+        	  <img src="./img/bank_txt_btn_a.png" height="45">
+        	  <div class="contact_button_txt">신랑측 계좌번호 확인</div>
+    		</div>
+            <div class="contact_button" data-type="f">
+        <img src="./img/bank_txt_btn_b.png" height="45">
+        <div class="contact_button_txt">신부측 계좌번호 확인</div>
+    </div>
+    </div>
+
+<div class="mask_over form_layer" id="contact_m" style="width: 95%; position: absolute; left: 2.5%; top: -30px; display: none;">
+        <img class="form_close_button" id="guest_user_form_close_button" src="./img/button_x_01_black.png" height="17"> 
+        <div class="form_title" style="background-image: url('./img/bank_txt_btn_a.png'); line-height: 45px;"> 신랑측 계좌번호 </div>
+                                                                            <table cellspacing="0" cellpadding="0" class="contact_row_table">
+                    <colgroup>
+                        <col width="35%">
+                        <col width="65%">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td>신랑 안정현</td>
+                            <td class="bank_txt">
+                                <div class="bank_txt_com">농협</div>
+                                <div class="bank_txt_num">3021062814561</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+         <div class="bank_txt_notice">계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.</div>
+    </div>
+<div class="mask_over form_layer" id="contact_f" style="width: 95%; position: absolute; left: 2.5%; top: -30px; display: none;">
+        <img class="form_close_button" id="guest_user_form_close_button" src="./img/button_x_01_black.png" height="17"> 
+        <div class="form_title" style="background-image: url('./img/bank_txt_btn_b.png'); line-height: 45px;"> 신부측 계좌번호 </div>
+           <table cellspacing="0" cellpadding="0" class="contact_row_table">
+                    <colgroup>
+                        <col width="35%">
+                        <col width="65%">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td>신부  권소현</td>
+                            <td class="bank_txt">
+                                <div class="bank_txt_com">하나은행</div>
+                                <div class="bank_txt_num">39191055242807</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                            <div class="bank_txt_notice">계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.</div>
+    </div>
+
+<script>
+	$function(){
+		$('.bank_txt').on('click', function(){
+		 var bank_txt = $('.bank_txt_com', this).text()+''+$('.bank_txt_num', this).text()
+			if (bank_txt.length>1) {
+				clipboard_copy(bank_txt)
+				alert(bank_txt + '복사되었습니다')
+				}
+			}
+		})
+</script>    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
                 <div class="row">
                     <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                         <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
