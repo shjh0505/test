@@ -3033,13 +3033,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3063,13 +3063,13 @@ textarea.form-control-lg {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5c636a;
-  border-color: #565e64;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #fff;
