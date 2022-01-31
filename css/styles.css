@@ -11459,3 +11459,26 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+
+
+.section_desc {
+    font-family: 'Gowun Batang';
+    font-size: 12px;
+    font-weight: 300;
+    border-bottom: 0;
+    text-align: center;
+    color: #333333;
+    margin-top: -20px;
+}
+.bank_txt {
+    cursor: pointer;
+}
+.bank_txt_num {
+    margin-top: 6px;
+}
+.bank_txt_notice {
+    color: #777777;
+    font-size: 11px;
+    text-align: right;
+}
