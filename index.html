@@ -171,53 +171,51 @@
                     </div>
                 </div>
 
-
-
-
-	<div class="c-account fade-in" style="opacity: 1; transform: translate(0px, 0px);">
-		<div class="item">
-			<div class="title">
-				<div>신랑측 계좌번호</div>
-				<div class="arrow rotate">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-					</svg>
+		<div class="row justify-content-center"  >		    
+	        	<div class="col-12 text-center">
+				<div class="btn-group" justify-content-center text-muted mb-3>
+					<button type="button" class="btn btn-primary">
+				        <div class="contact_button" data-type="m" justify-content-center align-self-end>
+        				  <img src="assets/img/bank_txt_btn_a.png" height="45">
+        				  <p class="contact_button_txt">신랑측 계좌번호 확인</p>
+    					 </div>
+					</button>
+				        <button type="button" class="btn btn-secondary">
+					  <div class="contact_button" data-type="f" justify-content-center align-self-end>
+   					  <img src="assets/img/bank_txt_btn_b.png" height="45">
+        				  <p class="contact_button_txt">신부측 계좌번호 확인</p>
+    					  </div>
+					</button>
 				</div>
-			</div> 
-			<div class="text gothic" style="height: 72px;">
-				<div class="inner">
-					<span>신한 110-123-456789</span><br>
-					<span>강지혁</span>
-				</div> 
-				<div class="btn-copy">복사하기 </div>
-				<!----></div></div>
-		<div class="item">
-			<div class="title">
-				<div>신부측 계좌번호</div>
-				<div class="arrow rotate">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-					</svg>
-				</div>
-			</div>
-			<div class="text gothic" style="height: 72px;"><div class="inner">
-				<span>국민 200123-45-678900</span><br>
-				<span>최유라</span>
-				</div> 
-				<div class="btn-copy">복사하기</div>
-				 <!----></div></div></div>		    
+
+ 			   </div>
+				
+			
+				
+<script>
+	$function(){
+		$('.bank_txt').on('click', function(){
+		 var bank_txt = $('.bank_txt_com', this).text()+''+$('.bank_txt_num', this).text()
+			if (bank_txt.length>1) {
+				clipboard_copy(bank_txt)
+				alert(bank_txt + '복사되었습니다')
+}
+}
+})
+</script>				
 		    
 		    
 
- 
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
+                <div class="row">
+                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                        <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                        <div>+82 (010) 1234-5678</div>
+                    </div>
+                    <div class="col-lg-4 mr-auto text-center">
+                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i
+                        ><!-- Make sure to change the email address in BOTH the anchor text and the link target below!--><a class="d-block" href="mailto:sample@gmail.com">sample@gmail.com</a>
+                    </div>
+                </div>
             </div>
         </section>	    
 
