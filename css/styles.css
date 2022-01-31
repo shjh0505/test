@@ -11391,8 +11391,8 @@ hr.divider-light {
 }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
+  padding-top: 0;
+  padding-bottom: 0;
   background: transparent; #url("../assets/img/bg-masthead.JPG")
   background-position: end;
   background-repeat: no-repeat;
