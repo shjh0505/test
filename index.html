@@ -47,18 +47,13 @@
         );
         wow.init();
 
-        $(document).ready(function() {
-            let date = new Date(2022, 05, 05,23:59:59);
-            let currentDate = new Date();
-
-            let result = date - currentDate;
-            let misec = 24 * 60 * 60 * 1000;
-		
-
-            result = (result <= 0)? 0 : (parseInt(result / misec) + 1);
-
-            $("#d-day").html(result);
-        });
+      	var today = new Date();
+	var dday = new Date(2022,05,05);
+	var gap = dday.getTime()-today.getTime();
+	var result = Math.ceil(gap/(1000*60*60*24));
+         
+	 document.getElementById("count").innerHTML = "정현 ❤️ 소현 결혼식이" + day + "일 남았습니다.";
+        },1000);
     </script>
     
 </head>
@@ -215,7 +210,7 @@
 			    </tbody></table>
 		</div>
 		<div class="wow fadeInUp col-12 text-center">
-			<p>정현 ❤️ 소현 결혼식이 <span id="d-day"></span>일 남았습니다.</p>
+			<div id="count"> </div>
 		 </div>	
 	</div>
 </section>		
