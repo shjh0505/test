@@ -7,6 +7,14 @@
 // Scripts
 // 
 
+    var today = new Date();
+	var dday = new Date(2022,05,05);
+	var gap = dday.getTime()-today.getTime();
+	var result = Math.ceil(gap/(1000*60*60*24));
+         
+	 document.getElementById("count").innerHTML = "정현 ❤️ 소현 결혼식이" + day + "일 남았습니다.";
+        },1000);
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
