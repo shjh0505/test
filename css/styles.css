@@ -340,6 +340,13 @@ th {
     border-radius: 300px;
 }
 
+.section5-table {
+
+    line-height: 1.3em;
+    font-size: 1.3rem;
+
+}
+
 
 label {
   display: inline-block;
@@ -1985,7 +1992,9 @@ progress {
   border-color: #dee2e6;
   line-height: 1.5em;
   font-size: 1.3rem;
+  border-collapse: collapse;
 }
+
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
   background-color: var(--bs-table-bg);
