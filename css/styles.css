@@ -341,12 +341,17 @@ th {
 }
 
 .section5-table {
-
+    --bs-text-opacity: 1;
+    color: #6c757d !important;
     line-height: 1.3em;
     font-size: 1.3rem;
 
 }
 
+.section5-table tr td {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
 
 label {
   display: inline-block;
