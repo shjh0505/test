@@ -11433,6 +11433,17 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+
+section.letter {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: url("../assets/img/hanji.jpg");
+  background-position: end;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
