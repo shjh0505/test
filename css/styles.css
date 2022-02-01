@@ -1996,7 +1996,9 @@ progress {
   vertical-align: inherit;
 }
 .table > thead {
-  vertical-align: bottom;
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
 }
 .table > :not(:first-child) {
   border-top: 2px solid currentColor;
