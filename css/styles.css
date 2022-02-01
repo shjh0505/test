@@ -334,6 +334,11 @@ th {
     color: red;
 }
 
+.check {
+    color: white;
+    background-color: yellow;
+    border-radius: 50px;
+}
 
 
 label {
