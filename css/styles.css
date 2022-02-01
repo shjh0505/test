@@ -330,6 +330,12 @@ th {
   border-width: 0;
 }
 
+.sun {
+    color: red;
+}
+
+
+
 label {
   display: inline-block;
 }
@@ -1972,6 +1978,8 @@ progress {
   color: #212529;
   vertical-align: top;
   border-color: #dee2e6;
+  line-height: 1.5em;
+  font-size: 1.3rem;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
