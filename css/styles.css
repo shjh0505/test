@@ -345,6 +345,8 @@ th {
     color: #6c757d !important;
     line-height: 1.3em;
     font-size: 1.3rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 
 }
 
