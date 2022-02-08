@@ -11339,6 +11339,15 @@ body {
   padding: 4rem 0;
 }
 
+.page-covid {
+  padding: 4rem 0;
+  background: url("../assets/img/bg2.jpg");
+  background-position: end;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
 }
