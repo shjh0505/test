@@ -11348,6 +11348,15 @@ body {
   background-size: cover;
 }
 
+@media (min-width: 992px) {
+  header.masthead {
+    height: 60vh;
+    min-height: 80rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
 }
