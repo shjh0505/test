@@ -11349,7 +11349,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  header.masthead {
+  section.page-covid {
     height: 60vh;
     min-height: 80rem;
     padding-top: 0;
