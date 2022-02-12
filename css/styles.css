@@ -7740,8 +7740,21 @@ textarea.form-control-lg {
 
 .text-wrap {
   white-space: normal !important;
+  
 }
 
+@media (max-width: 1024px)
+.text-wrap {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #ded2bd;
+
+  
+  
 .text-nowrap {
   white-space: nowrap !important;
 }
